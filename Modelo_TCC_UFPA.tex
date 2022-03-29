@@ -1,0 +1,24 @@
+%--------Pacotes-----------
+\input{Pacotes/Pac}
+%------------------------------
+\begin{document}
+%--------Pré-textual-----------
+\include{Pré-textuais/capa}					
+\include{Pré-textuais/Folha de rosto}		
+\include{Pré-textuais/Banca Examinadora}
+\include{Pré-textuais/Dedicatória}		
+\include{Pré-textuais/Agradecimentos}	
+\include{Pré-textuais/Resumo}				
+\include{Pré-textuais/Abstract}			
+%------Resumo e lista----------
+\include{Sumario e listas/Sumario}
+%------Cápitulos e Seções------
+\include{Capitulos/Capitulo 1}
+\include{Capitulos/Capitulo 2}
+%------Bibliografia------------
+\newpage
+\pagestyle{empty}
+\renewcommand{\refname}{Referências Bibliográficas}
+\addcontentsline{*}{chapter}{Referências Bibliográficas}
+\bibliography{Bibliografia}
+\end{document}
